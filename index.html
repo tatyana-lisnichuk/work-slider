@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- шрифт -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+     <!-- my CSS( пробую сделать слайдер, не подключая чужие стили)-->
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <title>Work slider</title>
+</head>
+<body>
+<div class="wrapper">
+  <div class="container">
+    <div class="heading">
+      <p class="before-h1">our featured work</p>
+      <h1 class="h1">We create engaging
+experiences through
+creativity & craft</h1>
+    </div>
+    <div class="slider">
+      <div class="slider__item">
+        <img class="slider__img" src="./imgs/central-left-picture.jpg" alt="image">
+      </div>
+      <div class="slider__item">
+        <img class="slider__img" src="./imgs/central-right-picture.jpg" alt="image">
+      </div>
+      <div class="slider__item">
+        <img class="slider__img" src="./imgs/left-picture.jpg" alt="image">
+      </div>
+      <div class="slider__item">
+        <img class="slider__img" src="./imgs/right-picture.jpg" alt="image">
+      </div>
+    </div>
+  </div>
+
+<!-- сначала всегда подключаем квери -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<!-- JS slider:качаем слайдер с сайта и из папки берем только файл slick.min.js, его и подключаем -->
+<script src="./js/slick.min.js"></script>
+<!-- подключаю свой скрипт -->
+ <script src="./js/script.js"></script>
+
+</div>
+
+
+
+</body>
+</html>

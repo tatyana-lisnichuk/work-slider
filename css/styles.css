@@ -1,0 +1,115 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: cadetblue;
+  font-weight: 400;
+}
+.container{
+  
+}
+.heading{
+  text-transform:uppercase;
+  max-width: 1030px;
+  min-height: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+.before-h1 {
+  font-weight: 18px;
+  margin: 0;
+}
+.h1{
+   margin: 0;
+   font-weight: 86px;
+   font-weight: 900;
+}
+/* стили слайдера */
+/* слайдер */
+.slick-slider{
+
+}
+/* ограничивающая оболочка */
+.slick-list{
+  overflow: hidden;/* чтоб не выглядывала лишняя часть картинки*/
+}
+/* лента слайдов */
+.slick-track{
+  display: flex;/*для того, чтоб слайды выстроились в ряд*/
+}
+/* лента слайдов */
+.slick-slide {
+    outline: none;/* убрать появляющийся бордер со слайдов */
+}
+/* слайд */
+.slick-slide{
+
+
+}
+/* стрелка */
+.slick-arrow{
+
+}
+/* стрелка влево*/
+.slick-arrow.slick-prev{
+
+}
+/* стрелка вправо*/
+.slick-arrow.slick-next{
+  
+}
+/* стрелка не активная*/
+.slick-slide.slick-disabled{
+
+}
+/* точки */
+.slick-dots{}
+.slick-dots li{}
+.slick-dots button{}
+
+/* слайд активный */
+
+
+/* конкретный слайдер */
+.slider{
+  position: relative;
+  padding: 0 0 0 115px;
+}
+/* обращаюсь к стрелке конкретного слайда,буду стилизовать стрелки */
+.slider .slick-arrow{
+  position: absolute;
+  top:50%;
+  margin: -60px 0 0 0;
+  z-index: 10;
+  font-size: 0;/* убрать надписи на кнопках */
+  width: 100px;
+  height: 100px;
+  border: none;
+  outline: none;
+}
+/*обращаюсь к конкретной стрелке */
+.slider .slick-arrow.slick-prev{
+  left: 0;
+  background: url('../imgs/left-array.png') 0 0 / 100% no-repeat;
+
+}
+.slider .slick-arrow.slick-next{
+  right: 0;
+background: url('../imgs/right-array.png') 0 0 / 100% no-repeat;
+}
+.slider__item{
+width: 440px;
+height: 400px;
+margin: 0 22px;
+}
+
+.slider__img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
